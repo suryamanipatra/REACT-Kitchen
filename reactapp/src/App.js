@@ -9,6 +9,8 @@ import EventHandle from './components/EventHandle'
 import EventHandleClass from './components/EventHandleClass'
 import EventHandlingClass from './components/EventHandlingClass'
 import EventHandlingEnd from './components/EventHandlingEnd'
+import Pratice from './components/Pratice'
+import MapTest from './components/MapTest'
 
 
 function App() {
@@ -26,6 +28,8 @@ function App() {
         <EventHandleClass />
         <EventHandlingClass /> 
         <EventHandlingEnd />
+        <Pratice text = "Hello"/>
+        < MapTest />
       </div>
   );
 }
