@@ -8,6 +8,7 @@ import StateInClassComponent from './components/stateInClassComponent';
 import EventHandle from './components/EventHandle'
 import EventHandleClass from './components/EventHandleClass'
 import EventHandlingClass from './components/EventHandlingClass'
+import EventHandlingEnd from './components/EventHandlingEnd'
 
 
 function App() {
@@ -23,7 +24,8 @@ function App() {
         <StateInClassComponent />
         <EventHandle />
         <EventHandleClass />
-        <EventHandlingClass />
+        <EventHandlingClass /> 
+        <EventHandlingEnd />
       </div>
   );
 }

@@ -3,13 +3,13 @@ import React, { Component } from 'react'
 export class EventHandlingClass extends Component {
     constructor(){
         super();
-        this.hireMeFunction  = this.hireMeFunction.bind(this)
+        // this.hireMeFunction  = this.hireMeFunction.bind(this)
         this.state = {
             message: 'Hello',
             name : "Surya"
         } 
     }
-     hireMeFunction() {
+     hireMeFunction = () => {
         console.log("hello",this.state.name)
         this.setState({
             message : "Namaste",
