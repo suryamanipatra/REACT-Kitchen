@@ -4,7 +4,10 @@ import FunctionComponent from "./components/FunctionComponent"
 import ClassComponents from "./components/ClassComponents"
 import LernProps from "./components/LernProps"
 import LearnJSX from './components/LearnJSX';
-
+import StateInClassComponent from './components/stateInClassComponent';
+import EventHandle from './components/EventHandle'
+import EventHandleClass from './components/EventHandleClass'
+import EventHandlingClass from './components/EventHandlingClass'
 
 
 function App() {
@@ -17,6 +20,10 @@ function App() {
 
         <ClassComponents > <p>I am child class component</p> <span>This is second one</span></ClassComponents>
         <LearnJSX />
+        <StateInClassComponent />
+        <EventHandle />
+        <EventHandleClass />
+        <EventHandlingClass />
       </div>
   );
 }
