@@ -11,6 +11,8 @@ import EventHandlingClass from './components/EventHandlingClass'
 import EventHandlingEnd from './components/EventHandlingEnd'
 import Pratice from './components/Pratice'
 import MapTest from './components/MapTest'
+import FragementInFunction from './components/FragementInFunction'
+import FragementInClass from './components/FragementInClass'
 
 
 function App() {
@@ -29,7 +31,9 @@ function App() {
         <EventHandlingClass /> 
         <EventHandlingEnd />
         <Pratice text = "Hello"/>
-        < MapTest />
+        <MapTest />
+        <FragementInFunction />
+        <FragementInClass />
       </div>
   );
 }
